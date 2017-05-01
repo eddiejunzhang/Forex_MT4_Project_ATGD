@@ -1,0 +1,13 @@
+filename=ATGD_TT_EURUSD.txt
+
+//EURUSD
+TradingDoOrNot=Do  //Do|NotDo  EURUSD货币对是否可以进行交易
+DolphinTactic=Use  //Use|NoUse  是否使用海豚战法
+CanBuy=Yes  //Yes|No
+BuyTradingStartTime=2016/07/30 20:00:00  //买单交易开始时间
+BuyTradingStopTime=2016/07/31 20:00:00  //买单交易不再开新单时间
+BuyTradingForceCloseTime=2016/08/01 12:00:00  //买单强制平仓时间，在此时间之后所以长单不建且必须关闭
+LongOrderStopLossPrice=1.0000  //1.00000
+LongOrderTakeProfitPrice=1.1000  //1.00000
+LongOrderBreakEven=Yes
+CanSell=No  //Yes|No
